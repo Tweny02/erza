@@ -1,7 +1,9 @@
 '''
 Godot4.4
-v0.0.1.20250322
-	# init
+v0.0.6.20250423
+	# Area interaction
+		- 角色与物品Area区域交互
+		- siganal相关知识
 
 
 '''
@@ -11,7 +13,7 @@ extends CharacterBody2D
 
 
 const SPEED = 100.0
-const JUMP_VELOCITY = -300.0
+const JUMP_VELOCITY = -400.0
 
 
 func _physics_process(delta: float) -> void:
