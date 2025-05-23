@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://b748n3inm2jdc"]
+
+[ext_resource type="AudioStream" uid="uid://bvkl2sewcac5p" path="res://Assets/Fami/BGM/不潮不用花钱.mp3" id="1_tvpuv"]
+[ext_resource type="Script" uid="uid://cfiy0wjsvel35" path="res://Scripts/Fami/bgm.gd" id="2_ia6dh"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_tvpuv")
+autoplay = true
+bus = &"BGM"
+parameters/looping = true
+script = ExtResource("2_ia6dh")

@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://kbo6nx7gul32"]
 
-[ext_resource type="Texture2D" uid="uid://c8460k1jthy05" path="res://Assets/TileMap/Terrain (16x16).png" id="1_1rc8e"]
+[ext_resource type="Texture2D" uid="uid://c8460k1jthy05" path="res://Assets/TileSet/Terrain (16x16).png" id="1_1rc8e"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n5262"]
 size = Vector2(40.8527, 2.64923)
